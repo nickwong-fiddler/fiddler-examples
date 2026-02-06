@@ -1,0 +1,11 @@
+--index-url https://test.pypi.org/simple/
+--extra-index-url https://pypi.org/simple
+fiddler-langgraph
+langchain-openai
+langchain-chroma
+langgraph>=0.3.28,<=0.5.3
+python-dotenv
+opentelemetry-api
+opentelemetry-sdk
+opentelemetry-exporter-otlp-proto-http
+ipykernel

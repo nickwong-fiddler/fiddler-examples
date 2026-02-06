@@ -1,0 +1,4 @@
+fiddler-evals
+openai
+pandas
+ipykernel

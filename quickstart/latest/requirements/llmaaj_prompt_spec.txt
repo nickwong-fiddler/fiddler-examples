@@ -1,0 +1,6 @@
+fiddler-client
+fsspec>=2021.09.0
+huggingface_hub
+pandas
+requests
+ipykernel

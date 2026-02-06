@@ -1,0 +1,5 @@
+fiddler-client
+pandas
+pyyaml
+scikit-learn
+ipykernel

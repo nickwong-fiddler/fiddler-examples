@@ -1,0 +1,4 @@
+fiddler-client
+pandas
+requests
+ipykernel

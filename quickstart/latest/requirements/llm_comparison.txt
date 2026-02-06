@@ -1,0 +1,4 @@
+fiddler-client
+pandas
+numpy
+ipykernel

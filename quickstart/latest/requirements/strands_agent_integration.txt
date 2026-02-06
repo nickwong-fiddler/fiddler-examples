@@ -1,0 +1,7 @@
+strands-agents
+opentelemetry-api
+opentelemetry-sdk
+opentelemetry-exporter-otlp
+openai
+requests
+ipykernel
