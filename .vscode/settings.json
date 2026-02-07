@@ -1,0 +1,34 @@
+{
+  // ── Python interpreter ──────────────────────────────────────────────
+  // Point the Python extension at the venv that has fiddler-langgraph etc.
+  "python.defaultInterpreterPath": "${workspaceFolder}/quickstart/latest/.venvs/langgraph_advanced_observability/bin/python",
+
+  // Also add the site-packages to extra search paths
+  "python.autoComplete.extraPaths": [
+    "${workspaceFolder}/quickstart/latest/.venvs/langgraph_advanced_observability/lib/python3.10/site-packages"
+  ],
+
+  // ── Cursorpyright analysis (Cursor's Python language server) ───────
+  "cursorpyright.analysis.typeCheckingMode": "basic",
+  "cursorpyright.analysis.autoImportCompletions": true,
+  "cursorpyright.analysis.diagnosticMode": "openFilesOnly",
+  "cursorpyright.analysis.autoSearchPaths": true,
+  "cursorpyright.analysis.useLibraryCodeForTypes": true,
+  "cursorpyright.analysis.extraPaths": [
+    "${workspaceFolder}/quickstart/latest/.venvs/langgraph_advanced_observability/lib/python3.10/site-packages"
+  ],
+
+  // ── Editor: hover & parameter hints ─────────────────────────────────
+  "editor.hover.enabled": true,
+  "editor.hover.delay": 300,
+  "editor.parameterHints.enabled": true,
+  "editor.suggest.preview": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+
+  // ── Notebook settings ───────────────────────────────────────────────
+  "notebook.cellToolbarLocation": { "default": "right" }
+}
