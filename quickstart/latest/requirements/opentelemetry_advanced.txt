@@ -4,3 +4,4 @@ opentelemetry-exporter-otlp-proto-http
 openai
 requests
 ipykernel
+python-dotenv
