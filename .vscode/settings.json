@@ -1,11 +1,15 @@
 {
   // ── Python interpreter ──────────────────────────────────────────────
+  // Discover all venvs under quickstart/latest/.venvs for the interpreter selector
+  "python.venvPath": "${workspaceFolder}/quickstart/latest/.venvs",
   // Point the Python extension at the venv that has fiddler-langgraph etc.
   "python.defaultInterpreterPath": "${workspaceFolder}/quickstart/latest/.venvs/langgraph_advanced_observability/bin/python",
 
-  // Also add the site-packages to extra search paths
+  // Add all venvs' site-packages so autocomplete, hover docs, and Go to Definition work
   "python.autoComplete.extraPaths": [
-    "${workspaceFolder}/quickstart/latest/.venvs/langgraph_advanced_observability/lib/python3.10/site-packages"
+    "${workspaceFolder}/quickstart/latest/.venvs/langgraph_advanced_observability/lib/python3.10/site-packages",
+    "${workspaceFolder}/quickstart/latest/.venvs/evaluations_sdk/lib/python3.10/site-packages",
+    "${workspaceFolder}/quickstart/latest/.venvs/opentelemetry_advanced/lib/python3.10/site-packages"
   ],
 
   // ── Cursorpyright analysis (Cursor's Python language server) ───────
@@ -15,7 +19,9 @@
   "cursorpyright.analysis.autoSearchPaths": true,
   "cursorpyright.analysis.useLibraryCodeForTypes": true,
   "cursorpyright.analysis.extraPaths": [
-    "${workspaceFolder}/quickstart/latest/.venvs/langgraph_advanced_observability/lib/python3.10/site-packages"
+    "${workspaceFolder}/quickstart/latest/.venvs/langgraph_advanced_observability/lib/python3.10/site-packages",
+    "${workspaceFolder}/quickstart/latest/.venvs/evaluations_sdk/lib/python3.10/site-packages",
+    "${workspaceFolder}/quickstart/latest/.venvs/opentelemetry_advanced/lib/python3.10/site-packages"
   ],
 
   // ── Editor: hover & parameter hints ─────────────────────────────────

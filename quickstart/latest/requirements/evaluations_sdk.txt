@@ -1,3 +1,4 @@
 fiddler-evals
 pandas
 ipykernel
+python-dotenv
