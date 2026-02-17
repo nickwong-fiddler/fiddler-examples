@@ -2,3 +2,4 @@ fiddler-evals
 openai
 pandas
 ipykernel
+python-dotenv
