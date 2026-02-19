@@ -1,3 +1,5 @@
 fiddler-evals
 pandas
+jinja2
 ipykernel
+python-dotenv
