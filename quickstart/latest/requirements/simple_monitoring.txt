@@ -1,3 +1,4 @@
 fiddler-client
 pandas
 ipykernel
+python-dotenv

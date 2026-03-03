@@ -3,7 +3,7 @@
   // Discover all venvs under quickstart/latest/.venvs for the interpreter selector
   "python.venvPath": "${workspaceFolder}/quickstart/latest/.venvs",
   // Point the Python extension at the venv that has fiddler-langgraph etc.
-  "python.defaultInterpreterPath": "${workspaceFolder}/quickstart/latest/.venvs/langgraph_advanced_observability/bin/python",
+  "python.defaultInterpreterPath": "",
 
   // Add all venvs' site-packages so autocomplete, hover docs, and Go to Definition work
   "python.autoComplete.extraPaths": [
@@ -25,7 +25,7 @@
   ],
 
   // ── Editor: hover & parameter hints ─────────────────────────────────
-  "editor.hover.enabled": true,
+  "editor.hover.enabled": "on",
   "editor.hover.delay": 300,
   "editor.parameterHints.enabled": true,
   "editor.suggest.preview": true,
