@@ -4,3 +4,4 @@ huggingface_hub
 pandas
 requests
 ipykernel
+python-dotenv
